@@ -64,7 +64,9 @@ h1 {
     letter-spacing: -1px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: #667eea;
 }
 
 h2 {
@@ -239,8 +241,10 @@ h2::before {
     }
     h1 {
         background: linear-gradient(135deg, #a78bfa 0%, #f472b6 100%);
-        webkit-background-clip: text;
+        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
+        color: #a78bfa;
     }
     h2 {
         color: #cbd5e1;
